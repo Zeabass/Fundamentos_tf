@@ -48,17 +48,35 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Forms\AtencionCasos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\AtencionCasos.Designer.cs">
+      <DependentUpon>AtencionCasos.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\DashboardGeneral.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Forms\DashboardGeneral.Designer.cs">
       <DependentUpon>DashboardGeneral.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\DetalleTicket.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\DetalleTicket.Designer.cs">
+      <DependentUpon>DetalleTicket.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Forms\Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\InformacionAuditoria.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\InformacionAuditoria.Designer.cs">
+      <DependentUpon>InformacionAuditoria.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\Mistickets.cs">
       <SubType>Form</SubType>
